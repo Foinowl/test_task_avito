@@ -18,3 +18,25 @@
 /photo-traine/npm-debug.log*
 /photo-traine/yarn-debug.log*
 /photo-traine/yarn-error.log*
+
+
+/dashboard-git/node_modules
+/dashboard-git/.pnp
+/dashboard-git.pnp.js
+
+# testing
+/dashboard-git/coverage
+
+# production
+/dashboard-git/build
+
+# misc
+/dashboard-git/.DS_Store
+/dashboard-git/.env.local
+/dashboard-git/.env.development.local
+/dashboard-git/.env.test.local
+/dashboard-git/.env.production.local
+
+/dashboard-git/npm-debug.log*
+/dashboard-git/yarn-debug.log*
+/dashboard-git/yarn-error.log*
