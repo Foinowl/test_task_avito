@@ -1,0 +1,20 @@
+/photo_traine/node_modules
+/photo_traine/.pnp
+/photo_traine/.pnp.js
+
+# testing
+/photo_traine/coverage
+
+# production
+/photo_traine/build
+
+# misc
+/photo_traine/.DS_Store
+/photo_traine/.env.local
+/photo_traine/.env.development.local
+/photo_traine/.env.test.local
+/photo_traine/.env.production.local
+
+/photo_traine/npm-debug.log*
+/photo_traine/yarn-debug.log*
+/photo_traine/yarn-error.log*
