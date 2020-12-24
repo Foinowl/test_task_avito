@@ -1,20 +1,20 @@
-/photo_traine/node_modules
-/photo_traine/.pnp
-/photo_traine/.pnp.js
+/photo-traine/node_modules
+/photo-traine/.pnp
+/photo-traine/.pnp.js
 
 # testing
-/photo_traine/coverage
+/photo-traine/coverage
 
 # production
-/photo_traine/build
+/photo-traine/build
 
 # misc
-/photo_traine/.DS_Store
-/photo_traine/.env.local
-/photo_traine/.env.development.local
-/photo_traine/.env.test.local
-/photo_traine/.env.production.local
+/photo-traine/.DS_Store
+/photo-traine/.env.local
+/photo-traine/.env.development.local
+/photo-traine/.env.test.local
+/photo-traine/.env.production.local
 
-/photo_traine/npm-debug.log*
-/photo_traine/yarn-debug.log*
-/photo_traine/yarn-error.log*
+/photo-traine/npm-debug.log*
+/photo-traine/yarn-debug.log*
+/photo-traine/yarn-error.log*
