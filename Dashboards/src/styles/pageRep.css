@@ -1,0 +1,84 @@
+.repContainer__repPageContainer {
+    margin: 20px 0;
+}
+
+.InfoBlock {
+    margin: 10px 0;
+}
+
+.repContainer__repPageContainer_repFirstInfo {
+    font-size: 18px;
+    width: 100%;
+}
+
+/*.repContainer__repPageContainer_repFirstInfo_repNameContainer {}*/
+
+.repImgForPage {
+    width: 18px;
+    min-width: 18px;
+    height: 18px;
+    margin-right: 3px;
+}
+
+.repNameForPage {
+    font-size: 18px;
+}
+
+/*.repContainer__repPageContainer_repFirstInfo_starsContainer {}*/
+
+.repStarsNumForPage {
+    font-size: 18px;
+}
+
+.lastCommitForPage {
+    font-size: 18px;
+    margin-right: auto;
+}
+
+.whiteSpace {
+    margin: 0 20px;
+}
+
+.repContainer__repPageContainer_repOwner {
+    padding: 5px;
+}
+
+.repContainer__repPageContainer_repOwner_face {
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    border-radius: 50%;
+}
+
+.repContainer__repPageContainer_repOwner_ownerName {
+    font-size: 18px;
+}
+
+.repContainer__repPageContainer_repLanguages {
+    font-size: 18px;
+}
+
+.repContainer__repPageContainer_repDescription {
+    font-size: 18px;
+}
+
+.repContainer__repPageContainer_repContributors {
+    font-size: 18px;
+}
+
+.badge {
+    border-radius: 18px;
+    background-size: cover;
+    margin: 5px;    
+    padding: 1px 10px 2px;
+}
+
+.language { 
+    background-color: rgb(240, 142, 142);
+}
+
+.contributor {
+    background-color: rgb(179, 183, 218);
+}

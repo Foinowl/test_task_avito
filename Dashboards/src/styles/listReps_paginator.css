@@ -1,0 +1,32 @@
+.contentContainer__paginator {
+    width: 100%;
+}
+
+.contentContainer__paginator_list {
+    margin: 10px 0 20px;
+    padding: 0;
+}
+
+.paginatorPage {
+    list-style: none;
+    width: 20px;
+    height: 27px;
+    padding: 5px;
+    cursor: pointer;
+}
+.paginatorPage:hover {
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.activePage {
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.paginatorPage_num {
+    font-size: 13px;
+    margin: auto;
+}

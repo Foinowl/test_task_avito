@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+	<meta charset="utf-8">
+    <title>Let'sFindReps</title>
+  </head>
+  <body>
+    <div class="outerContainer backgroundColor header_sticky">
+        <div class="innerContainer">
+            <div class="headerContainer flex justify-content_space-around">
+                <h1 class="headerContainer__appName font-family_Cambria">Github Search Reps</h1>
+                <input type="text" placeholder="Введите название репозитория" class="headerContainer__searchBlock box-sizing border_1px border-radius_4px" id="searchInput">
+            </div>
+        </div>
+    </div>
+
+    <div class="outerContainer">
+        <div class="innerContainer">
+            <div class="contentContainer" id="contentContainer">
+                <h2 class="contentContainer__title fontDefault display-none" id="contentTitle"></h2>
+
+                <div id="repItemTemplate" >
+
+                </div>
+
+                <div id="repPageTemplate">
+
+                </div>
+                    
+                <div class="contentContainer__paginator">
+                    <ul class="contentContainer__paginator_list flex justify-content_center" id="ulID">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="outerContainer hide">
+        <div class="innerContainer">
+            <div class="contentContainer" id="contentContainer">
+                <h2 class="contentContainer__title fontDefault display-none" id="contentTitle"></h2>
+
+                <div id="repPageTemplate">
+                    <div class="repContainer__repPageContainer flex flex-direction_column align-items_start">
+                        <div class="repContainer__repPageContainer_repFirstInfo InfoBlock flex justify-content_center">
+                            <div class="repContainer__repPageContainer_repFirstInfo_repNameContainer flex justify-content_center">
+                                <img src="rep.jpg" alt="" class="repImgForPage">
+                                <span class="repNameForPage fontDefault"></span>                                
+                            </div>
+                            <span class="fontDefault whiteSpace"> - </span>
+                            <div class="repContainer__repPageContainer_repFirstInfo_starsContainer flex justify-content_center">
+                                <img src="star.jpg" alt="" class="repImgForPage">
+                                <span class="repStarsNumForPage fontDefault"></span>
+                            </div>
+                            <span class="fontDefault whiteSpace"> - </span>
+                            <span class="lastCommitForPage fontDefault">last commit: </span>
+                        </div>
+                        <div class="repContainer__repPageContainer_repOwner InfoBlock flex flex-direction_column align-items_center border_1px border-radius_12px">
+                            <span class="fontDefault">Owner:</span>
+                            <img src="" alt="" class="repContainer__repPageContainer_repOwner_face">
+                            <span class="repContainer__repPageContainer_repOwner_ownerName fontDefault"></span>
+                        </div>
+                        <div class="repContainer__repPageContainer_repLanguages InfoBlock flex flex-wrap align-items_center">
+                            <span class="fontDefault">Languages:</span>
+                        </div>
+                        <div class="repContainer__repPageContainer_repDescription InfoBlock fontDefault">Description:</div>
+                        <div class="repContainer__repPageContainer_repContributors InfoBlock flex flex-wrap align-items_center">
+                            <span class="fontDefault">Most active contributors:</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+  </body>
+</html>

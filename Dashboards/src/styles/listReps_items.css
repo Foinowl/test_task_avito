@@ -1,0 +1,45 @@
+.contentContainer__listRep {
+    margin-bottom: 10px;
+}
+
+.contentContainer__listRep_itemContainer {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.repNameContainer {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.repImgForList {
+    width: 16px;
+    min-width: 16px;
+    height: 16px;
+    margin-right: 3px
+}
+
+.repNameForList {
+    font-size: 16px;
+}
+.repNameForList:hover {
+    color: #db3727;
+}
+
+.repStarsContainer {
+    height: 21px;
+}
+
+.repStarsNumForList {
+    font-size: 14px;
+}
+
+.lastCommitForList {
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.repLink {
+    font-size: 14px;
+}
