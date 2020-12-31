@@ -29,6 +29,7 @@ class Ads(models.Model):
     """Объявление"""
     name = models.CharField(max_length=200, unique=True)
     description = models.TextField(max_length=1000, unique=True)
+    main_img = models.URLField(null=True)
     images = models.ForeignKey(
         Gallery,
         verbose_name="Изображения",
