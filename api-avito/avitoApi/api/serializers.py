@@ -4,7 +4,7 @@ from .models import Ads, Gallery, Photo
 
 
 class PhotoSer(serializers.ModelSerializer):
-    """Для вывода изображений"""
+    """All photo list"""
     class Meta:
         model = Photo
         fields = ("image", )
@@ -13,7 +13,7 @@ class PhotoSer(serializers.ModelSerializer):
 
 
 class GallerySer(serializers.ModelSerializer):
-    """Для вывода галерей"""
+    """All photo gallery list"""
     photos = PhotoSer(many=True, read_only=True)
 
     class Meta:
@@ -23,7 +23,7 @@ class GallerySer(serializers.ModelSerializer):
 
 
 class AdvertListSer(serializers.ModelSerializer):
-  """Для вывода списка объявлений"""
+  """All list advert list"""
 
   images = GallerySer()
 
@@ -42,7 +42,7 @@ class AdvertListSer(serializers.ModelSerializer):
 
 
 class AdvertCreateSer(serializers.Serializer):
-    """Добавление объявления"""
+    """Add advert"""
     name = serializers.CharField(max_length=200)
     description = serializers.CharField(max_length=1000)
     images = serializers.ListField()
@@ -50,7 +50,7 @@ class AdvertCreateSer(serializers.Serializer):
 
     def validate(self, data):
         """
-        Check data.
+        Validate and check data.
         """
         if len(data['name']) > 200:
             raise serializers.ValidationError(
@@ -63,6 +63,9 @@ class AdvertCreateSer(serializers.Serializer):
         return data
 
     def create(self, validated_data):
+        """
+            Before save in db, we need to create table for advert
+        """
         images_data = validated_data.pop('images')
 
 

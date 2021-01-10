@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Photo(models.Model):
-    """Фото"""
+    """Photo"""
     image = models.URLField()
     created = models.DateTimeField("Дата создания", auto_now_add=True)
 
@@ -15,7 +15,7 @@ class Photo(models.Model):
 
 
 class Gallery(models.Model):
-    """Галерея"""
+    """Gallery"""
     photos = models.ManyToManyField(Photo, verbose_name="Фотографии")
     created = models.DateTimeField("Дата создания", auto_now_add=True)
 
@@ -26,7 +26,7 @@ class Gallery(models.Model):
 
 
 class Ads(models.Model):
-    """Объявление"""
+    """Advert"""
     name = models.CharField(max_length=200, unique=True)
     description = models.TextField(max_length=1000, unique=True)
     main_img = models.URLField(null=True)
